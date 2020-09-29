@@ -1,0 +1,48 @@
+* body{
+background-color: rgb(218, 214, 214);
+margin-left: 5%;
+}
+.form{
+background-color: rgb(32, 23, 116);
+display: flex;
+color: whitesmoke;
+font-size: 15px;
+font-family: sans-serif;
+padding:20px 10px 20px 15px;
+}
+.form label{
+position: absolute;
+}
+.form input {
+ position: relative;
+ top: 20px;
+ padding-left:50px;
+ padding:4px;
+ margin-right: 40px;
+}
+.form span{
+text-align: center;
+position: relative;
+padding-bottom: 50px;
+}
+
+.form button{
+position: absolute;
+top: 50px;
+right:120px;
+background-color: rgb(34, 34, 116);
+color: rgb(175, 171, 171);
+border-color:rgb(34, 34, 116);
+}
+h1{
+font-family:sans-serif ; 
+font-weight: 600;  
+text-align: center;
+}
+
+
+::input-placeholder{
+padding-right: 40px; 
+    
+}
+
