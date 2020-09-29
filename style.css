@@ -41,8 +41,30 @@ text-align: center;
 }
 
 
-::input-placeholder{
-padding-right: 40px; 
-    
+.text{
+    border:3px;
+    width: 70%;
+    padding:10px 20px;
+    display:block;
+    height: 30px;
+    border-radius: 20px;
+    background:whitesmoke;
+    border:2px solid rgba(250, 245, 245, 0);
+  
 }
 
+span{
+    font-size: 24px;
+    display: inline-block;
+    position: relative;
+    top:39px;
+    width: 20%;
+  
+}
+input[type="text"],
+input[type="password"]{
+  color:whitesmoke;
+  display:inline-block;
+  font-size:14px;  
+  
+}
