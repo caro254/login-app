@@ -73,12 +73,20 @@ input[type="text"],
 input[type="password"]{
   color:whitesmoke;
   display:inline-block;
-  font-size:15px;   
+  font-size:15px;  
+  text-align:justify; 
 }
 h5{
  color: blue; 
  position: relative; 
  top:-40px; 
- right:-160px;
+ right:-230px;
  display: block;
+}
+button{
+color: rgb(17, 24, 17);
+padding:10px;
+background-color: rgb(40, 165, 40);
+border-color: rgb(40, 165, 40);
+font: solid arial 30px;
 }
